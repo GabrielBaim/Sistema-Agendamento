@@ -1,0 +1,24 @@
+:root {
+  --azul-login: rgba(30, 136, 229, 1);
+  --white: rgba(250, 249, 249, 1);
+  --black: rgba(32, 32, 32, 1);
+  --gradient: linear-gradient(
+    99.31deg,
+    rgba(30, 136, 229, 0.74) 15.68%,
+    rgba(32, 32, 32, 0.83) 95.32%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  text-decoration: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}

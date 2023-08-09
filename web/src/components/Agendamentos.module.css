@@ -1,0 +1,151 @@
+.Agendamentos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 2rem;
+  gap: 5rem;
+  flex-direction: column;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 5rem;
+  background: #fcfcfc;
+  box-shadow: 0, 0, 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #5555;
+}
+
+.scrollableContent {
+  width: 50%;
+  padding: 0 1rem;
+  overflow-y: auto;
+  height: calc(100% - 20px);
+}
+
+.inputDiv:hover .input {
+  background: #e2e1e1;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0f0f0;
+  width: 95%;
+  height: 4rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.input span {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.postsFuturos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #0086f7;
+  border-bottom: 3px solid #0086f7;
+  padding-bottom: 2rem;
+}
+
+.postsFuturos h2 {
+  font-size: 2.2rem;
+}
+
+.postsFuturos span {
+  font-size: 1.3rem;
+  background: #e2e1e1;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40%;
+}
+
+.divider {
+  background: #e2e1e1;
+  width: 50%;
+  height: 2px;
+}
+
+.postDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.postDiv .postDate {
+  font-size: 2rem;
+  color: #222;
+  padding-bottom: 2rem;
+}
+
+.postAgendamento {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 200%;
+}
+
+.postAgendamento .postInfo {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  color: #444;
+  font-size: 1.2rem;
+  padding-right: 10rem;
+  align-items: start;
+}
+
+.postContent {
+  font-size: 1.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.dividerTwo {
+  transform: rotate(90deg);
+  width: 10%;
+  height: 0.1rem;
+  background: #e2e1e1;
+}
+
+.postOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.postOptions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.postDateInfo,
+.postHour,
+.postType {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImgContent img {
+  width: 50%;
+  height: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}

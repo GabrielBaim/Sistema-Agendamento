@@ -1,0 +1,29 @@
+.dashboard {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content space";
+  grid-template-columns: 371fr 0fr 1fr;
+  grid-template-rows: 70px 1fr;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.HeaderArea {
+  grid-area: header;
+}
+
+.SideBarArea {
+  grid-area: sidebar;
+}
+
+.ContentArea {
+  grid-area: content;
+  overflow-y: auto; /* Adicionado para permitir rolagem */
+  height: 100%; /* Adicionado para ajustar a altura ao container */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,149 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modalMain {
+  position: fixed;
+  background: white;
+  width: 40%;
+  height: 48vh;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.headModal {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 2rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.headModal .fecharModal {
+  padding: 0.7rem 1rem;
+  border-radius: 100%;
+  background: #cccccc;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.headModal .fecharModal:hover {
+  background: #a1a1a1;
+}
+
+.formAgendar {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.formAgendar input::placeholder {
+  color: #555;
+}
+
+.formAgendar textarea {
+  width: 100%;
+  height: 25rem;
+  resize: none;
+  border: 1px solid #cccccc;
+  padding: 1rem;
+}
+.formAgendar textarea:focus {
+  outline: none;
+}
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  gap: 45rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.featuresModal {
+  display: flex;
+  gap: 2rem;
+}
+
+.featuresModal button {
+  background: none;
+  border: none;
+  color: #0086f7;
+  cursor: pointer;
+}
+
+.Agendar .btnAgendar {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background: #0086f7;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  border-radius: 5px;
+}
+.Agendar .btnAgendar:hover {
+  background: #016ec7;
+}
+
+@media (max-width: 1560px) {
+  .modalFooter {
+    gap: 40rem;
+  }
+}
+@media (max-width: 1366px) {
+  .modalFooter {
+    gap: 30rem;
+  }
+}
+@media (max-width: 1100px) {
+  .modalFooter {
+    gap: 18rem;
+  }
+}
+@media (max-width: 768px) {
+  .modalFooter {
+    gap: 8rem;
+    padding: 1rem;
+  }
+  .modalMain {
+    position: fixed;
+    background: white;
+    width: 80%;
+    height: 44vh;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.react-datepicker__day {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.react-datepicker__day--selected {
+  background-color: #333;
+  color: #fff;
+}
+
+.imageSubmited {
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  border: 1px solid #333;
+}

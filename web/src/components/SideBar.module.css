@@ -1,0 +1,43 @@
+.SideBar {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 100vh;
+  background: #faf9f9;
+  grid-area: sidenav;
+}
+
+.toggle {
+  position: relative;
+  top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.toggleButton {
+  padding: 3rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #55555581;
+
+  cursor: pointer;
+}
+
+.Calendar {
+  padding: 3rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #55555581;
+  cursor: pointer;
+  transition: all 400ms;
+}
+.Calendar:hover {
+  background: #1e88e5;
+  color: white;
+}
